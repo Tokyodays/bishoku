@@ -1,0 +1,54 @@
+/*
+	Escape Velocity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  position: relative;
+  -ms-behavior: url("assets/js/ie/PIE.htc");
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  position: relative;
+  -ms-behavior: url("assets/js/ie/PIE.htc");
+}
+
+.button,
+#intro > .style2,
+#copyright ul,
+#nav > ul,
+.dropotron {
+  position: relative;
+  -ms-behavior: url("assets/js/ie/PIE.htc");
+}
+
+/* Section/Article */
+section > .last-child,
+article > .last-child,
+section.last-child,
+article.last-child {
+  margin-bottom: 0;
+}
+
+/* Wrappers */
+.wrapper .title:before, .wrapper .title:after {
+  display: none;
+}
+
+#header-wrapper {
+  -ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+}
+
+/* Copyright */
+#copyright {
+  margin: 0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImllOC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBOzs7O0VBSUU7QUFFRixXQUFXO0FBRVY7Ozs7O0VBTUUsbUJBQW1CO0VBQ25CLDBDQUFpQjtDQUNqQjs7QUFHRjs7O0VBR0MsbUJBQW1CO0VBQ25CLDBDQUFpQjtDQUNqQjs7QUFFRDs7Ozs7RUFLQyxtQkFBbUI7RUFDbkIsMENBQWlCO0NBQ2pCOztBQUVGLHFCQUFxQjtBQUVwQjs7OztFQUlDLGlCQUFpQjtDQUNqQjs7QUFFRixjQUFjO0FBRWI7RUFJRyxjQUFjO0NBQ2Q7O0FBSUg7RUFDQyx5REFBaUI7Q0FDakI7O0FBRUYsZUFBZTtBQUVkO0VBQ0MsVUFBVTtDQUNWIiwiZmlsZSI6ImllOC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0ICdsaWJzL3ZhcnMnO1xuQGltcG9ydCAnbGlicy9mdW5jdGlvbnMnO1xuQGltcG9ydCAnbGlicy9taXhpbnMnO1xuXG4vKlxuXHRFc2NhcGUgVmVsb2NpdHkgYnkgSFRNTDUgVVBcblx0aHRtbDV1cC5uZXQgfCBAbjMzY29cblx0RnJlZSBmb3IgcGVyc29uYWwgYW5kIGNvbW1lcmNpYWwgdXNlIHVuZGVyIHRoZSBDQ0EgMy4wIGxpY2Vuc2UgKGh0bWw1dXAubmV0L2xpY2Vuc2UpXG4qL1xuXG4vKiBCYXNpYyAqL1xuXG5cdGZvcm0ge1xuXHRcdGlucHV0W3R5cGU9XCJ0ZXh0XCJdLFxuXHRcdGlucHV0W3R5cGU9XCJlbWFpbFwiXSxcblx0XHRpbnB1dFt0eXBlPVwicGFzc3dvcmRcIl0sXG5cdFx0c2VsZWN0LFxuXHRcdHRleHRhcmVhIHtcblx0XHRcdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0XHRcdC1tcy1iZWhhdmlvcjogdXJsKCdhc3NldHMvanMvaWUvUElFLmh0YycpO1xuXHRcdH1cblx0fVxuXG5cdGlucHV0W3R5cGU9XCJidXR0b25cIl0sXG5cdGlucHV0W3R5cGU9XCJzdWJtaXRcIl0sXG5cdGlucHV0W3R5cGU9XCJyZXNldFwiXSB7XG5cdFx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHRcdC1tcy1iZWhhdmlvcjogdXJsKCdhc3NldHMvanMvaWUvUElFLmh0YycpO1xuXHR9XG5cblx0LmJ1dHRvbixcblx0I2ludHJvID4gLnN0eWxlMixcblx0I2NvcHlyaWdodCB1bCxcblx0I25hdiA+IHVsLFxuXHQuZHJvcG90cm9uIHtcblx0XHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdFx0LW1zLWJlaGF2aW9yOiB1cmwoJ2Fzc2V0cy9qcy9pZS9QSUUuaHRjJyk7XG5cdH1cblxuLyogU2VjdGlvbi9BcnRpY2xlICovXG5cblx0c2VjdGlvbiA+IC5sYXN0LWNoaWxkLFxuXHRhcnRpY2xlID4gLmxhc3QtY2hpbGQsXG5cdHNlY3Rpb24ubGFzdC1jaGlsZCxcblx0YXJ0aWNsZS5sYXN0LWNoaWxkIHtcblx0XHRtYXJnaW4tYm90dG9tOiAwO1xuXHR9XG5cbi8qIFdyYXBwZXJzICovXG5cblx0LndyYXBwZXIge1xuXHRcdC50aXRsZSB7XG5cdFx0XHQmOmJlZm9yZSxcblx0XHRcdCY6YWZ0ZXIge1xuXHRcdFx0XHRkaXNwbGF5OiBub25lO1xuXHRcdFx0fVxuXHRcdH1cblx0fVxuXG5cdCNoZWFkZXItd3JhcHBlciB7XG5cdFx0LW1zLWJlaGF2aW9yOiB1cmwoJ2Fzc2V0cy9qcy9pZS9iYWNrZ3JvdW5kc2l6ZS5taW4uaHRjJyk7XG5cdH1cblxuLyogQ29weXJpZ2h0ICovXG5cblx0I2NvcHlyaWdodCB7XG5cdFx0bWFyZ2luOiAwO1xuXHR9Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
